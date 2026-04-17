@@ -38,7 +38,7 @@ where transactions_id is null
  or cogs is null
  or total_sale is null;
  
--- delete row
+-- delete row if null exist
 delete from retail_sales
 where transactions_id is null
  OR  sale_date is null
